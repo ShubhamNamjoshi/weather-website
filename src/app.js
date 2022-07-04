@@ -38,7 +38,7 @@ app.get("/help",(req,res)=>{
 
 app.get("",(req,res)=>{
     res.render("index",{
-        title:"Weater App",
+        title:"Weather App",
         name:"Shubham Namjoshi"
     });
 });
